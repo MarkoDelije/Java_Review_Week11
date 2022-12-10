@@ -46,10 +46,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() +"{" +
+        return
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", gender=" + gender +
-                '}';
+                ", gender=" + gender + '\'';
     }
 }
